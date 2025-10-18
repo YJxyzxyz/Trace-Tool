@@ -1,4 +1,4 @@
-# GccTrace Tool Suite
+# Trace Tool Suite
 
 This repository hosts two complementary tracing toolchains:
 
@@ -12,7 +12,7 @@ Both toolchains can be used independently or side-by-side when analysing heterog
 ## Repository layout
 
 ```
-GccTrace-Tool/
+Trace-Tool/
 ├── README.md
 ├── CMakeLists.txt            # Entry point that delegates to the C++ tracer build system
 ├── cpp-tracer/               # GCC plugin sources, headers, docker helpers, unit tests
@@ -140,4 +140,4 @@ print(render_ascii_tree(result.call_tree))
 
 ## License
 
-This project follows the licensing terms defined in the repository (see individual files for details).
+MIT
